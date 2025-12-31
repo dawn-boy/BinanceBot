@@ -1,0 +1,40 @@
+2025-12-31 23:10:14,308 - src.logger - INFO - BinanceBot is Initialized!
+2025-12-31 23:10:14,308 - src.logger - INFO - Using TestNet
+2025-12-31 23:10:14,725 - src.logger - INFO - Connection to Binance Futures is Succesfull!
+2025-12-31 23:10:14,725 - src.logger - INFO - Account Balance: 4976.29806710
+2025-12-31 23:10:23,443 - src.logger - INFO - API Request - Order type: MARKET
+2025-12-31 23:10:23,443 - src.logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 1.0
+}
+2025-12-31 23:10:23,574 - src.logger - INFO - API Response: {
+  "orderId": 7909916408,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ2bd16a035d127f3a36ad07",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "1.000",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767202823486
+}
+2025-12-31 23:10:23,575 - src.logger - INFO - Market order is placed.
+2025-12-31 23:10:23,575 - src.logger - INFO - Order ID: 7909916408
+2025-12-31 23:10:23,575 - src.logger - INFO - Status: NEW
