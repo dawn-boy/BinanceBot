@@ -1,0 +1,129 @@
+2025-12-31 16:55:44,804 - logger - INFO - BinanceBot is Initialized!
+2025-12-31 16:55:44,805 - logger - INFO - Using TestNet
+2025-12-31 16:55:44,992 - logger - INFO - Connection to Binance Futures is Succesfull!
+2025-12-31 16:55:44,993 - logger - INFO - Account Balance: 4981.42668880
+2025-12-31 16:56:36,086 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:56:36,086 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 2700.0,
+  "price": 2720.0,
+  "stopPrice": 2710.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:56:36,212 - logger - INFO - API Response: {
+  "algoId": 1000000003276738,
+  "clientAlgoId": "x-Cb7ytekJccd2c2d4604b0a24c00e3e",
+  "algoType": "CONDITIONAL",
+  "orderType": "STOP",
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "timeInForce": "GTC",
+  "quantity": "2700.000",
+  "algoStatus": "NEW",
+  "triggerPrice": "2710.00",
+  "price": "2720.00",
+  "icebergQuantity": null,
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "workingType": "CONTRACT_PRICE",
+  "priceMatch": "NONE",
+  "closePosition": false,
+  "priceProtect": false,
+  "reduceOnly": false,
+  "createTime": 1767180396150,
+  "updateTime": 1767180396150,
+  "triggerTime": 0,
+  "goodTillDate": 0
+}
+2025-12-31 16:56:36,212 - logger - INFO - Stop-limit order placed successfully
+2025-12-31 16:56:36,212 - logger - INFO - Algo ID: 1000000003276738
+2025-12-31 16:57:08,646 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:57:08,646 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "STOP",
+  "quantity": 3000.0,
+  "price": 3900.0,
+  "stopPrice": 3000.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:57:08,764 - logger - ERROR - Error placing stop-limit order: APIError(code=-4183): Limit price can't be higher than 3150
+2025-12-31 16:58:08,768 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:58:08,768 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2900.0,
+  "stopPrice": 3000.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:58:08,912 - logger - INFO - API Response: {
+  "algoId": 1000000003276911,
+  "clientAlgoId": "x-Cb7ytekJd0e07afc3afd32203f4af2",
+  "algoType": "CONDITIONAL",
+  "orderType": "STOP",
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "timeInForce": "GTC",
+  "quantity": "1.000",
+  "algoStatus": "NEW",
+  "triggerPrice": "3000.00",
+  "price": "2900.00",
+  "icebergQuantity": null,
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "workingType": "CONTRACT_PRICE",
+  "priceMatch": "NONE",
+  "closePosition": false,
+  "priceProtect": false,
+  "reduceOnly": false,
+  "createTime": 1767180488831,
+  "updateTime": 1767180488831,
+  "triggerTime": 0,
+  "goodTillDate": 0
+}
+2025-12-31 16:58:08,912 - logger - INFO - Stop-limit order placed successfully
+2025-12-31 16:58:08,912 - logger - INFO - Algo ID: 1000000003276911
+2025-12-31 16:58:59,666 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:58:59,666 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2900.0,
+  "stopPrice": 3000.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:58:59,805 - logger - INFO - API Response: {
+  "algoId": 1000000003276993,
+  "clientAlgoId": "x-Cb7ytekJff2f0346f36111fe45411d",
+  "algoType": "CONDITIONAL",
+  "orderType": "STOP",
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "timeInForce": "GTC",
+  "quantity": "1.000",
+  "algoStatus": "NEW",
+  "triggerPrice": "3000.00",
+  "price": "2900.00",
+  "icebergQuantity": null,
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "workingType": "CONTRACT_PRICE",
+  "priceMatch": "NONE",
+  "closePosition": false,
+  "priceProtect": false,
+  "reduceOnly": false,
+  "createTime": 1767180539730,
+  "updateTime": 1767180539730,
+  "triggerTime": 0,
+  "goodTillDate": 0
+}
+2025-12-31 16:58:59,805 - logger - INFO - Stop-limit order placed successfully
+2025-12-31 16:58:59,805 - logger - INFO - Algo ID: 1000000003276993
+2025-12-31 16:59:08,569 - logger - INFO - Retrieved 0 open orders
+2025-12-31 16:59:12,698 - logger - INFO - Retrieved 0 active positions
+2025-12-31 17:02:38,631 - logger - INFO - Bot session ended by user

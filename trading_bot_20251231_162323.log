@@ -1,0 +1,728 @@
+2025-12-31 16:23:23,486 - logger - INFO - BinanceBot is Initialized!
+2025-12-31 16:23:23,486 - logger - INFO - Using TestNet
+2025-12-31 16:23:23,668 - logger - INFO - Connection to Binance Futures is Succesfull!
+2025-12-31 16:23:23,669 - logger - INFO - Account Balance: 5000.00000000
+2025-12-31 16:23:31,595 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:23:31,595 - logger - INFO - Params: {
+  "symbol": "ALICEUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 1.0
+}
+2025-12-31 16:23:31,725 - logger - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 5 (unless you choose reduce only).
+2025-12-31 16:24:28,825 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:24:28,825 - logger - INFO - Params: {
+  "symbol": "ALICEUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001
+}
+2025-12-31 16:24:29,053 - logger - ERROR - Binance API Error: 400 - Precision is over the maximum defined for this asset.
+2025-12-31 16:25:06,547 - logger - ERROR - Invalid Symbol: USDC
+2025-12-31 16:26:43,296 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:26:43,296 - logger - INFO - Params: {
+  "symbol": "ALICEUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 5.0
+}
+2025-12-31 16:26:43,421 - logger - ERROR - Binance API Error: 400 - Order's notional must be no smaller than 5 (unless you choose reduce only).
+2025-12-31 16:27:02,885 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:27:02,885 - logger - INFO - Params: {
+  "symbol": "ALICEUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 100.0
+}
+2025-12-31 16:27:03,012 - logger - INFO - API Response: {
+  "orderId": 68480759,
+  "symbol": "ALICEUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ3291f5f0b8c2203ca311a8",
+  "price": "0.000",
+  "avgPrice": "0.00",
+  "origQty": "100.0",
+  "executedQty": "0.0",
+  "cumQty": "0.0",
+  "cumQuote": "0.0000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.000",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767178622949
+}
+2025-12-31 16:27:03,012 - logger - INFO - Market order is placed.
+2025-12-31 16:27:03,012 - logger - INFO - Order ID: 68480759
+2025-12-31 16:27:03,012 - logger - INFO - Status: NEW
+2025-12-31 16:28:19,416 - logger - INFO - API Request - Order type: LIMIT
+2025-12-31 16:28:19,416 - logger - INFO - Params: {
+  "symbol": "XRPUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 100.0,
+  "price": 1.88,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:28:19,540 - logger - INFO - API Response: {
+  "orderId": 1276275842,
+  "symbol": "XRPUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ4bbaf30014ae5f5ba26a27",
+  "price": "1.8800",
+  "avgPrice": "0.00",
+  "origQty": "100.0",
+  "executedQty": "0.0",
+  "cumQty": "0.0",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.0000",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767178699477
+}
+2025-12-31 16:28:19,540 - logger - INFO - Limit order has been placed
+2025-12-31 16:28:19,541 - logger - INFO - Order ID: 1276275842
+2025-12-31 16:28:19,541 - logger - INFO - Status: NEW
+2025-12-31 16:29:20,339 - logger - ERROR - Invalid side: . Must be BUY or SELL
+2025-12-31 16:29:23,890 - logger - ERROR - Invalid side: . Must be BUY or SELL
+2025-12-31 16:29:36,911 - logger - INFO - API Request - Order type: LIMIT
+2025-12-31 16:29:36,911 - logger - INFO - Params: {
+  "symbol": "XRPUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 1000.0,
+  "price": 10.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:29:37,033 - logger - ERROR - Binance API Error: 400 - Limit price can't be higher than 1.9648.
+2025-12-31 16:29:59,761 - logger - INFO - API Request - Order type: LIMIT
+2025-12-31 16:29:59,762 - logger - INFO - Params: {
+  "symbol": "XRPUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 100.0,
+  "price": 2.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:29:59,885 - logger - ERROR - Binance API Error: 400 - Limit price can't be higher than 1.9648.
+2025-12-31 16:30:20,948 - logger - INFO - API Request - Order type: LIMIT
+2025-12-31 16:30:20,948 - logger - INFO - Params: {
+  "symbol": "XRPUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 105.0,
+  "price": 1.9,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:30:21,077 - logger - INFO - API Response: {
+  "orderId": 1276280322,
+  "symbol": "XRPUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJeb1c764bbb1a8a9e0389d4",
+  "price": "1.9000",
+  "avgPrice": "0.00",
+  "origQty": "105.0",
+  "executedQty": "0.0",
+  "cumQty": "0.0",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.0000",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767178821017
+}
+2025-12-31 16:30:21,078 - logger - INFO - Limit order has been placed
+2025-12-31 16:30:21,078 - logger - INFO - Order ID: 1276280322
+2025-12-31 16:30:21,078 - logger - INFO - Status: NEW
+2025-12-31 16:30:52,098 - logger - INFO - Retrieved 0 open orders
+2025-12-31 16:30:57,590 - logger - INFO - Retrieved 2 active positions
+2025-12-31 16:31:33,241 - logger - ERROR - Error cancelling order: APIError(code=-2011): Unknown order sent.
+2025-12-31 16:32:20,916 - logger - ERROR - Error cancelling order: APIError(code=-2011): Unknown order sent.
+2025-12-31 16:32:32,641 - logger - ERROR - Error cancelling order: APIError(code=-2011): Unknown order sent.
+2025-12-31 16:33:00,636 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:33:00,636 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 200.0
+}
+2025-12-31 16:33:00,756 - logger - ERROR - Binance API Error: 400 - Margin is insufficient.
+2025-12-31 16:33:19,785 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:33:19,786 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 10.0
+}
+2025-12-31 16:33:19,911 - logger - INFO - API Response: {
+  "orderId": 7906895753,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ356dbb2a73ac1fd1d2d080",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "10.000",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767178999851
+}
+2025-12-31 16:33:19,911 - logger - INFO - Market order is placed.
+2025-12-31 16:33:19,911 - logger - INFO - Order ID: 7906895753
+2025-12-31 16:33:19,911 - logger - INFO - Status: NEW
+2025-12-31 16:33:40,027 - logger - ERROR - Error cancelling order: APIError(code=-2011): Unknown order sent.
+2025-12-31 16:34:18,826 - logger - INFO - Retrieved 0 open orders
+2025-12-31 16:34:50,901 - logger - INFO - Retrieved 3 active positions
+2025-12-31 16:37:19,192 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:37:19,193 - logger - INFO - Params: {
+  "symbol": "ADAUSDT",
+  "side": "BUY",
+  "type": "STOP",
+  "quantity": 100.0,
+  "price": 0.33,
+  "stopPrice": 0.33,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:37:19,362 - logger - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-12-31 16:38:11,864 - logger - INFO - Retrieved 0 active positions
+2025-12-31 16:38:38,757 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:38:38,757 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.01
+}
+2025-12-31 16:38:38,973 - logger - INFO - API Response: {
+  "orderId": 7906938074,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJc28b87081f364064145542",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.010",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767179318818
+}
+2025-12-31 16:38:38,973 - logger - INFO - Market order is placed.
+2025-12-31 16:38:38,973 - logger - INFO - Order ID: 7906938074
+2025-12-31 16:38:38,973 - logger - INFO - Status: NEW
+2025-12-31 16:38:44,702 - logger - INFO - Retrieved 1 active positions
+2025-12-31 16:39:27,476 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:39:27,476 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "MARKET",
+  "quantity": 0.01
+}
+2025-12-31 16:39:27,694 - logger - INFO - API Response: {
+  "orderId": 7906944336,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ9bce53b67c75763fca40e4",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.010",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767179367539
+}
+2025-12-31 16:39:27,694 - logger - INFO - Market order is placed.
+2025-12-31 16:39:27,694 - logger - INFO - Order ID: 7906944336
+2025-12-31 16:39:27,694 - logger - INFO - Status: NEW
+2025-12-31 16:39:44,425 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:39:44,425 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 1.0
+}
+2025-12-31 16:39:44,636 - logger - INFO - API Response: {
+  "orderId": 7906947190,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ301abed450cacc90e2674f",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "1.000",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767179384487
+}
+2025-12-31 16:39:44,637 - logger - INFO - Market order is placed.
+2025-12-31 16:39:44,637 - logger - INFO - Order ID: 7906947190
+2025-12-31 16:39:44,637 - logger - INFO - Status: NEW
+2025-12-31 16:39:53,398 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:39:53,399 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "MARKET",
+  "quantity": 1.0
+}
+2025-12-31 16:39:53,524 - logger - INFO - API Response: {
+  "orderId": 7906948304,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ39129d469f853f78bae503",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "1.000",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767179393462
+}
+2025-12-31 16:39:53,524 - logger - INFO - Market order is placed.
+2025-12-31 16:39:53,524 - logger - INFO - Order ID: 7906948304
+2025-12-31 16:39:53,524 - logger - INFO - Status: NEW
+2025-12-31 16:40:24,403 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:40:24,403 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 1.0
+}
+2025-12-31 16:40:24,621 - logger - INFO - API Response: {
+  "orderId": 7906952962,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ84b7418e297b684ea24d0f",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "1.000",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767179424539
+}
+2025-12-31 16:40:24,621 - logger - INFO - Market order is placed.
+2025-12-31 16:40:24,621 - logger - INFO - Order ID: 7906952962
+2025-12-31 16:40:24,621 - logger - INFO - Status: NEW
+2025-12-31 16:42:21,047 - logger - INFO - API Request - Order type: LIMIT
+2025-12-31 16:42:21,047 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "LIMIT",
+  "quantity": 1.0,
+  "price": 2987.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:42:21,344 - logger - INFO - API Response: {
+  "orderId": 7906967702,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ81af648054aa36856a1287",
+  "price": "2987.00",
+  "avgPrice": "0.00",
+  "origQty": "1.000",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767179541108
+}
+2025-12-31 16:42:21,344 - logger - INFO - Limit order has been placed
+2025-12-31 16:42:21,344 - logger - INFO - Order ID: 7906967702
+2025-12-31 16:42:21,344 - logger - INFO - Status: NEW
+2025-12-31 16:43:18,181 - logger - ERROR - Invalid side: . Must be BUY or SELL
+2025-12-31 16:43:23,979 - logger - INFO - API Request - Order type: MARKET
+2025-12-31 16:43:23,979 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 1.0
+}
+2025-12-31 16:43:24,177 - logger - INFO - API Response: {
+  "orderId": 7906976151,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJad68bdbe5018387801ef47",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "1.000",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767179604046
+}
+2025-12-31 16:43:24,177 - logger - INFO - Market order is placed.
+2025-12-31 16:43:24,177 - logger - INFO - Order ID: 7906976151
+2025-12-31 16:43:24,177 - logger - INFO - Status: NEW
+2025-12-31 16:43:52,071 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:43:52,071 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2988.0,
+  "stopPrice": 2987.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:43:52,216 - logger - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-12-31 16:44:10,432 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:44:10,432 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2989.0,
+  "stopPrice": 2988.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:44:10,560 - logger - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-12-31 16:44:37,296 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:44:37,297 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2991.0,
+  "stopPrice": 2990.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:44:37,428 - logger - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-12-31 16:45:03,958 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:45:03,958 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 2988.0,
+  "price": 3.0,
+  "stopPrice": 2990.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:45:04,076 - logger - ERROR - Error placing stop-limit order: APIError(code=-4013): Price less than min price.
+2025-12-31 16:45:17,185 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:45:17,185 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2990.0,
+  "stopPrice": 2988.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:45:17,322 - logger - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-12-31 16:46:05,727 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:46:05,727 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2984.0,
+  "stopPrice": 2987.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:46:05,951 - logger - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-12-31 16:46:31,218 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:46:31,218 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2495.0,
+  "stopPrice": 2500.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:46:31,354 - logger - INFO - API Response: {
+  "algoId": 1000000003275666,
+  "clientAlgoId": "x-Cb7ytekJdaf2b75b2c993e60e41ec",
+  "algoType": "CONDITIONAL",
+  "orderType": "STOP",
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "timeInForce": "GTC",
+  "quantity": "1.000",
+  "algoStatus": "NEW",
+  "triggerPrice": "2500.00",
+  "price": "2495.00",
+  "icebergQuantity": null,
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "workingType": "CONTRACT_PRICE",
+  "priceMatch": "NONE",
+  "closePosition": false,
+  "priceProtect": false,
+  "reduceOnly": false,
+  "createTime": 1767179791281,
+  "updateTime": 1767179791281,
+  "triggerTime": 0,
+  "goodTillDate": 0
+}
+2025-12-31 16:46:31,354 - logger - INFO - Stop-limit order placed successfully
+2025-12-31 16:46:31,354 - logger - ERROR - Error placing stop-limit order: 'orderId'
+2025-12-31 16:47:12,656 - logger - INFO - Retrieved 1 active positions
+2025-12-31 16:47:37,956 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:47:37,956 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2400.0,
+  "stopPrice": 2500.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:47:38,171 - logger - INFO - API Response: {
+  "algoId": 1000000003275780,
+  "clientAlgoId": "x-Cb7ytekJ8e297f6fdae7ab78d927e6",
+  "algoType": "CONDITIONAL",
+  "orderType": "STOP",
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "timeInForce": "GTC",
+  "quantity": "1.000",
+  "algoStatus": "NEW",
+  "triggerPrice": "2500.00",
+  "price": "2400.00",
+  "icebergQuantity": null,
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "workingType": "CONTRACT_PRICE",
+  "priceMatch": "NONE",
+  "closePosition": false,
+  "priceProtect": false,
+  "reduceOnly": false,
+  "createTime": 1767179858021,
+  "updateTime": 1767179858021,
+  "triggerTime": 0,
+  "goodTillDate": 0
+}
+2025-12-31 16:47:38,171 - logger - INFO - Stop-limit order placed successfully
+2025-12-31 16:47:38,171 - logger - ERROR - Error placing stop-limit order: 'orderId'
+2025-12-31 16:47:57,638 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:47:57,638 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 3000.0,
+  "stopPrice": 2000.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:47:57,855 - logger - ERROR - Error placing stop-limit order: APIError(code=-4183): Limit price can't be higher than 2100
+2025-12-31 16:48:18,631 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:48:18,632 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2495.0,
+  "stopPrice": 2500.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:48:18,765 - logger - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-12-31 16:49:40,058 - logger - INFO - API Request - Order type: STOP_LIMIT
+2025-12-31 16:49:40,058 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "STOP",
+  "quantity": 1.0,
+  "price": 2900.0,
+  "stopPrice": 3000.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:49:40,188 - logger - INFO - API Response: {
+  "algoId": 1000000003275999,
+  "clientAlgoId": "x-Cb7ytekJ56f276e26bbd7d8af9876",
+  "algoType": "CONDITIONAL",
+  "orderType": "STOP",
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "timeInForce": "GTC",
+  "quantity": "1.000",
+  "algoStatus": "NEW",
+  "triggerPrice": "3000.00",
+  "price": "2900.00",
+  "icebergQuantity": null,
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "workingType": "CONTRACT_PRICE",
+  "priceMatch": "NONE",
+  "closePosition": false,
+  "priceProtect": false,
+  "reduceOnly": false,
+  "createTime": 1767179980123,
+  "updateTime": 1767179980124,
+  "triggerTime": 0,
+  "goodTillDate": 0
+}
+2025-12-31 16:49:40,188 - logger - INFO - Stop-limit order placed successfully
+2025-12-31 16:49:40,188 - logger - ERROR - Error placing stop-limit order: 'orderId'
+2025-12-31 16:50:16,270 - logger - INFO - Account balance has been retrieved.
+2025-12-31 16:50:23,103 - logger - INFO - Retrieved 0 open orders
+2025-12-31 16:50:30,494 - logger - INFO - Retrieved 0 active positions
+2025-12-31 16:50:53,156 - logger - INFO - API Request - Order type: LIMIT
+2025-12-31 16:50:53,156 - logger - INFO - Params: {
+  "symbol": "ETHUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 1.0,
+  "price": 1000.0,
+  "timeInForce": "GTC"
+}
+2025-12-31 16:50:53,277 - logger - INFO - API Response: {
+  "orderId": 7907035171,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "x-Cb7ytekJ91f92ce96806488cad38eb",
+  "price": "1000.00",
+  "avgPrice": "0.00",
+  "origQty": "1.000",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1767180053218
+}
+2025-12-31 16:50:53,277 - logger - INFO - Limit order has been placed
+2025-12-31 16:50:53,277 - logger - INFO - Order ID: 7907035171
+2025-12-31 16:50:53,277 - logger - INFO - Status: NEW
+2025-12-31 16:50:56,451 - logger - INFO - Retrieved 0 active positions
+2025-12-31 16:51:01,716 - logger - INFO - Retrieved 1 open orders
+2025-12-31 16:51:24,500 - logger - INFO - Order 7907035171 cancelled successfully
+2025-12-31 16:55:42,146 - logger - INFO - Bot session ended by user
